@@ -21,11 +21,6 @@ public class MyController {
 
     //Gestionar peticiones,no sirve para enviar contenido html
 
-    @GetMapping
-    public String welcome(){
-        return "Bienvenido";
-    }
-
     @GetMapping("/saludar")
     public String hola(){
         return "<h1>Hola mundo</h1>";
