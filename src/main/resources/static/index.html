@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Ejemplo Juegos</title>
+
+
+    <!--Links de css-->
+    <link rel="stylesheet" href="css/myCss.css" />
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--Scipts de js-->
+
+
+<body>
+    <h1 class="myTitulo">Agrega un juego a la app</h1>
+    <div class="ui form">
+        <input placeholder="Nombre del juego" id="gameName">
+        <input placeholder="Precio del juego" id="gamePrice">
+        <input placeholder="Año del juego" id="gameLaunchYear">
+        <input placeholder="Link de Imagen" id="gameImage">
+
+        <button class="ui button" onclick="saveGame()">Guardar!</button>
+    </div>
+
+    <!--parrilla paara generar las cartas -->
+    <div id="parrilla" class="ui cards"></div>
+</body>
+</html>
